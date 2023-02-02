@@ -1,0 +1,200 @@
+/* Responsive design not complete */
+
+
+@media (max-width: 991px) {
+
+    /* Common CSS Start */
+    body {
+        font-family: 'Inter', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        color: #FFFFFF;
+        background-color: #9ea2a7;
+        line-height: 1.7;
+    }
+
+    .theme-button {
+        text-align: center;
+        margin-left: 0;
+        margin-top: 15px;
+        padding: 0 !important;
+
+
+    }
+
+    /* Common CSS End */
+
+    /* Header Area CSS Start */
+    .header-area .nav-link {
+        padding: 16px 0 !important;
+        position: relative;
+    }
+
+    .header-area .navbar-toggler {
+        border: none;
+        box-shadow: none;
+    }
+
+    .header-area .nav-link::after {
+        position: absolute;
+        top: 50%;
+        right: 25px;
+        transform: translateY(-50%);
+    }
+
+    .header-area .login-button {
+        text-align: center;
+        width: 100%;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .header-area .theme-button {
+        margin-left: 0px;
+        width: 100%;
+
+    }
+
+    .theme-button img {
+        margin-left: 5px;
+    }
+
+    /* Header Area CSS End */
+
+    /* Hero Area CSS Start*/
+    .hero-area {
+        text-align: center;
+        padding: 80px 0;
+    }
+
+    .header-area h3 {
+        font-size: 16px;
+    }
+
+    .hero-area .theme-button {
+        margin-bottom: 50px;
+        padding: 16px 24px !important;
+    }
+
+    /* Hero Area CSS End*/
+
+    /* Management Area CSS Start */
+    .management-area {
+        padding: 50px 0;
+    }
+
+    .theme-text {
+        text-align: center;
+        font-size: 36px;
+    }
+
+    .management-area .theme-button {
+        margin-bottom: 50px;
+        margin-left: 0;
+        padding: 16px 24px !important;
+
+    }
+
+    .work-managemnet {
+        margin: 50px 0;
+    }
+
+    .work-managemnet .theme-text {
+        padding-left: 0;
+    }
+
+    /* Management Area CSS End */
+
+    /* Extention Area CSS Start*/
+    .extention-area {
+        padding: 50px 0;
+    }
+
+    .extention-area .theme-button {
+        margin-bottom: 50px;
+        padding: 16px 24px !important;
+    }
+
+    /* Extention Area CSS End*/
+
+    /* Customise Area CSS Start */
+    .customise-area {
+        padding: 50px 0;
+
+    }
+
+    .customise-area .theme-text {
+        padding-left: 0;
+    }
+
+    .customise-area .theme-button {
+        padding: 16px 24px !important;
+    }
+
+    /* Customise Area CSS End */
+
+    /* Pricing Area CSS Start */
+    .special-pricing .theme-button {
+        padding: 16px 24px !important;
+
+
+    }
+
+    /* Pricing Area CSS End */
+
+    /* Apps Area CSS Start */
+    .apps-area {
+        padding: 80px 0;
+    }
+
+    .apps-area img {
+        margin-bottom: 50px;
+    }
+
+    /* Apps Area CSS End */
+
+    /* Footer Area CSS Start */
+    .footer-top {
+        text-align: center;
+    }
+
+    .footer-about {
+        margin-bottom: 40px;
+    }
+
+    .footer-link {
+        margin: 40px 0;
+    }
+
+    .footer-contact {
+        margin-top: 40px;
+    }
+
+    .footer-bottom {
+        border-top: none;
+
+    }
+
+    .footer-language {
+        text-align: center;
+    }
+
+    .footer-copyright {
+        padding: 32px 0;
+    }
+
+    .footer-social {
+        text-align: center;
+        border-top: 1px solid #2e4e73;
+        padding-top: 32px;
+    }
+
+    .footer-social a {
+
+        margin-left: 0 16px;
+
+
+    }
+
+    /* Footer Area CSS End */
+}

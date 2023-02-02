@@ -1,0 +1,491 @@
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Inter', sans-serif; */
+
+
+
+/* White: #FFFFFF
+Login: #FFE492
+jjaj: #4F9CF9
+Blue: #043873 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Inter:wght@400;500;700&display=swap');
+
+/* Basaic CSS End*/
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #9ea2a7;
+    line-height: 1.7;
+}
+
+/* Common CSS Start */
+.theme-button {
+    background: #4F9CF9;
+    border-radius: 8px;
+    padding: 16px 24px !important;
+    display: inline-block;
+    text-decoration: none;
+    color: #ffffff;
+    transition: 0.3s;
+
+}
+
+.theme-button-two {
+    background-color: #ffffff;
+    border: 1px solid #FFE492;
+    color: #212529;
+    border-radius: 8px;
+    padding: 16px 24px !important;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.theme-text h3 {
+    font-size: 65px;
+    color: #212529;
+    margin-bottom: 15px;
+
+}
+
+.theme-text h3 span {
+    position: relative;
+    z-index: 1;
+
+}
+
+.theme-text h3 span::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 60px;
+    left: 0;
+    bottom: 0;
+    background: url(../assets/element.png);
+    z-index: -1;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.theme-text p {
+    color: #212529;
+
+}
+
+
+/* Common CSS End */
+
+/* Header Area CSS Start */
+.header-area {
+    background-color: #043873;
+    padding: 16px 0;
+}
+
+.header-area .nav-link {
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    padding: 16px !important;
+}
+
+.header-area .theme-button {
+    margin-left: 24px;
+}
+
+.theme-button img {
+    margin-left: 5px;
+}
+
+.header-area .login-button {
+    background: #FFE492;
+    border-radius: 8px;
+    display: inline-block;
+    color: #043873 !important;
+    margin-left: 24px;
+
+}
+
+/* Header Area CSS End */
+
+/* Hero Area CSS Start */
+.hero-area {
+    background-image: url("../images/hero-bg.png");
+    padding: 140px 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero-area h3 {
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 77px;
+}
+
+.hero-area .theme-button {
+    margin-top: 30px;
+}
+
+/* Hero Area CSS End */
+
+/* management Area CSS Start*/
+.management-area {
+    background-color: #ffffff;
+    padding: 140px 0;
+}
+
+/* management Area CSS End*/
+
+/* Work Managemnet Area CSS Start*/
+.work-managemnet {
+    margin-top: 100px;
+
+}
+
+.work-managemnet .theme-text {
+    padding-left: 45px;
+}
+
+/* Work Managemnet Area CSS End*/
+
+/* Extention Area CSS Start*/
+.extention-area {
+    padding: 140px 0;
+    background-color: #043873;
+}
+
+
+.extention-area .theme-text h3 {
+    color: #ffffff;
+
+}
+
+
+.extention-area .theme-text p {
+    color: #ffffff;
+
+}
+
+/* Extention Area CSS End*/
+
+/* Customise Area CSS Start */
+.customise-area {
+    background-color: #ffffff;
+    padding: 140px 0;
+
+}
+
+.customise-area .theme-text {
+    padding-left: 45px;
+}
+
+/* Customise Area CSS End */
+
+/* Pricing Area CSS Start */
+.pricing-area {
+    background-color: #ffffff;
+    padding: 140px 0;
+}
+
+.pricing-area .theme-text {
+    margin-bottom: 60px;
+}
+
+.single-pricing {
+    color: #212529;
+    border: 1px solid #FFE492;
+    border-radius: 10px;
+    padding: 40px 44px;
+}
+
+.single-pricing h4 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.single-pricing h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.single-pricing ul {
+    margin: 25px 0;
+    padding: 0;
+
+}
+
+.single-pricing ul li {
+    list-style: none;
+    margin-bottom: 28px;
+}
+
+.single-pricing ul li:last-child {
+    margin: 0;
+}
+
+.special-pricing {
+    background-color: #043873;
+    color: #ffffff;
+    padding: 80px 44px;
+}
+
+.special-pricing h2 {
+    font-size: 36px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: #FFE492;
+}
+
+/* Pricing Area CSS End */
+
+/* Your Work Area CSS Start */
+.your-work-area {
+    padding: 140px 0;
+    background-color: #043873;
+}
+
+.your-work-area .theme-text h3 {
+    color: #ffffff;
+}
+
+
+.your-work-area .theme-text p {
+    color: #ffffff;
+}
+
+/* Your Work Area CSS End */
+
+/* Your Task Area CSS Start */
+.your-task-area {
+    padding: 140px 0;
+    background-color: #ffffff;
+}
+
+/* Your Task Area CSS End */
+
+/* Sponsor Area CSS Start */
+.sponsor-area {
+    padding: 140px 0;
+    background-color: #ffffff;
+}
+
+.sponsor-area .theme-text {
+    margin-bottom: 80px;
+}
+
+.single-sponsor img {
+    height: 55px;
+    width: auto;
+}
+
+/* Sponsor Area CSS End */
+
+/* Apps Area CSS Start */
+.apps-area {
+    padding: 140px 0;
+    background-image: url(../images/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.apps-area .theme-text h3 {
+    color: #ffffff;
+}
+
+.apps-area .theme-text p {
+    color: #ffffff;
+}
+
+.apps-area .theme-text {
+    padding-left: 45px;
+}
+
+/* Apps Area CSS End */
+
+/* Testimonial Area CSS Start */
+.testimonial-area {
+    padding: 140px 0;
+    background-color: #ffffff;
+}
+
+
+.single-testmonial {
+    background: #4F9CF9;
+    box-shadow: 15px 10px 50px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 40px 20px;
+    color: #212529;
+}
+.single-testmonial:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.testmonial-text {
+    border-bottom: 1px solid #212529;
+}
+
+.testmonial-text img {
+    margin-bottom: 40px;
+    height: 60px;
+    width: auto !important;
+}
+
+.testmonial-text p {
+    margin-bottom: 25px;
+}
+
+.testmonial-author {
+    margin-top: 40px;
+    display: flex;
+}
+
+.author-image {
+    margin-right: 25px;
+}
+
+.author-text h3 {
+    font-size: 20px;
+}
+
+.author-text p {
+    margin-bottom: 0;
+}
+
+.testimonial-area .owl-dots button {
+    height: 15px;
+    width: 15px;
+    background-color: #4F9CF9;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.testimonial-area .owl-dots button.active{
+    background-color: #043873;
+
+}
+.testimonial-area .owl-dots {
+    text-align: center;
+    margin-top: 50px;
+}
+/* Testimonial Area CSS End */
+
+/* Trail Area CSS Start */
+.trail-area {
+    padding: 140px 0;
+    background-color: #043873;
+}
+
+.trail-area h3 {
+    font-size: 68px;
+}
+
+.trail-area p {
+    font-size: 24px;
+}
+
+.trail-area .theme-button {
+    margin: 20px 0;
+}
+
+.trail-area img {
+    margin: 20px 0;
+}
+
+.taril-iamges a{
+    margin: 0 20px;
+}
+
+.trail-area .theme-button {
+    padding: 7px 24px !important; 
+}
+
+/* Trail Area CSS End */
+
+/* Footer Area CSS Start */
+.footer-area {
+    background-color: #043873;
+    border-top: 1px solid #2e4e73;
+    padding-top: 140px;
+}
+
+.footer-top {
+    padding-bottom: 60px;
+}
+
+.footer-about img {
+    margin-bottom: 15px;
+}
+
+.footer-link h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.footer-link a {
+    font-size: 16px;
+    padding-bottom: 10px;
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-link a:hover {
+    color: #FFE492;
+
+}
+
+.footer-link ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footer-link ul li {
+    list-style: none;
+}
+
+.footer-contact {
+    margin-bottom: 15px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #2e4e73;
+    padding: 32px 0;
+}
+
+.footer-language .dropdown a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer-language .dropdown i {
+  margin-right: 10px;
+}
+.footer-language .dropdown-menu a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.footer-social {
+    text-align: right;
+}
+
+.footer-social a {
+    display: inline-block;
+    margin-left: 32px;
+    text-align: center;
+    color: #ffffff;
+
+}
+/* Footer Area CSS End */
